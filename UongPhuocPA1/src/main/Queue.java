@@ -1,12 +1,3 @@
-/**
-* This is the implementation of the queue
-* Known Bugs: None
-* @author Phuoc Uong
-* phuocuong@brandeis.edu
-* 10/11/2024
-* COSI 21A PA1
-*/
-
 package main;
 
 import java.util.NoSuchElementException;
@@ -42,13 +33,11 @@ public class Queue<T> {
 		// add to end. move to tail to new element
 		// also have to check what if the queue is full
 		if (this.numEntries == q.length) {
-			System.out.println("queue is full");
+			System.out.println("Queue is full");
 			return;
 		}
 		// adds the new element to the queue and move the tail circularly
-		// System.out.println(element);
 		q[tail] = element;
-		// System.out.println(Arrays.toString(q));
 		tail = (tail + 1) % q.length;
 		this.numEntries++;
 
@@ -64,8 +53,7 @@ public class Queue<T> {
 		// dont have to check if queue is full just check the element exist
 
 		if (this.numEntries == 0) {
-			System.out.println("current amount of entries " + this.numEntries);
-			throw new NoSuchElementException();
+			throw new NoSuchElementException("Cannot remove from empty queue");
 		}
 
 		q[head] = null;
@@ -83,7 +71,7 @@ public class Queue<T> {
 	public T front() {
 		// return the value at the head. not dequeue
 		if (this.numEntries == 0) {
-			throw new NoSuchElementException();
+			throw new NoSuchElementException("Queue is empty");
 		}
 		return q[head];
 	}
@@ -113,7 +101,7 @@ public class Queue<T> {
 		int curr = head;
 		String qString = "[";
 		// loops to the value before the tail since the print of the one before should
-		// have closing bracket
+		
 		while ((curr + 1) % q.length != this.tail) {
 			T currentVal = q[curr];
 			qString += currentVal + ", ";
