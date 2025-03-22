@@ -1,14 +1,5 @@
 package main;
 
-/**
- * This is prq
- * Known Bugs: not sure
- *
- * @author phuoc uong
- *         phuocuong@brandeis.edu
- *         12/4/2024
- *         COSI 21A PA3
- */
 public class PriorityQueue {
     private GraphNode[] table;
     private int heapSize;
