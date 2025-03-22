@@ -1,15 +1,6 @@
 package main;
 
-/**
- * This code has been provided for you
- * The only modifications you need to make are deleting the comments,
- * and removing the filler code,
- * like return null or System.out.println("Unsupported Operation")
- * as you complete the AVLPlayerNode class.
- * Aside from getTree, all commented code is inside of the driverLoop
- *
- * @author COSI 21a-Team
- */
+
 
 import java.util.Scanner;
 
