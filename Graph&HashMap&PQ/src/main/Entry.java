@@ -1,14 +1,6 @@
 package main;
 
-/**
- * This is entry
- * Known Bugs: not sure
- *
- * @author phuoc uong
- *         phuocuong@brandeis.edu
- *         12/4/2024
- *         COSI 21A PA3
- */
+
 public class Entry {
     GraphNode gNodekey;
     int heapIndexValue;
