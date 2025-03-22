@@ -1,14 +1,6 @@
 package main;
 
-/**
- * This is main method for djikstra
- * Known Bugs: not sure
- *
- * @author phuoc uong
- *         phuocuong@brandeis.edu
- *         12/4/2024
- *         COSI 21A PA3
- */
+
 
 import java.io.IOException;
 import java.io.PrintStream;
