@@ -1,14 +1,7 @@
 package main;
 
-/**
- * This is hashmap class
- * Known Bugs: not sure
- *
- * @author phuoc uong
- *         phuocuong@brandeis.edu
- *         12/4/2024
- *         COSI 21A PA3
- */
+
+
 public class HashMap {
     private Entry[] table;
     private int size;
