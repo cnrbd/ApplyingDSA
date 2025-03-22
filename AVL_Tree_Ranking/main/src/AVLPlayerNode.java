@@ -1,11 +1,4 @@
-/**
-  * This my AVL playerNode class that use for chess rankings
- * Known Bugs: maybe some bugs in the delete method
- * Phuoc Uong
-* phuocuong@brandeis.edu
-  * <11, 06, 2024>
- * COSI 21A PA2
-*/
+
 
 package main;
 
