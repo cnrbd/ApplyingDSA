@@ -1,11 +1,4 @@
-/**
-* This is the implementation of a node of a doubly linked list
-* Known Bugs: None
-* @author Phuoc Uong
-* phuocuong@brandeis.edu
-* 10/11/2024
-* COSI 21A PA1
-*/
+
 
 package main;
 
